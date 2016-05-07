@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Compute &pi;</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Compute &pi;</h2>
+        <form class="form-horizontal" id="computePiForm">
+            <div class="form-group">
+                <label for="iterations" class="col-sm-2 control-label">Iterations</label>
+                <div class="col-sm-6">
+                    <input type="text" id="iterations" class="form-control" value="10000">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <button type="submit" class="btn btn-default">Compute</button>
+                </div>
+            </div>
+        </form>
+        <div class="alert alert-success hidden" id="resultAlert">
+            &pi; = <strong><span id="piValue" class="strong">3</span></strong>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script>
+    function computePi(iterations) {
+        var x,y;
+        var hits = 0;
+        for (var i = 0; i < iterations; i++) {
+            x = Math.random();
+            y = Math.random();
+            if ((x*x + y*y) <= 1) {
+                hits++;
+            }
+        }
+        return 4 * hits / iterations;
+    }
+
+    $(document).ready(function() {
+        $('#computePiForm').on('submit', function(event) {
+            event.preventDefault();
+            var iterations = parseInt($('#iterations').val());
+            if (isNaN(iterations) || iterations < 1) {
+                return;
+            }
+            $('#iterations').val(iterations);
+            var pi = computePi(iterations);
+            $('#piValue').text(pi);
+            $('#resultAlert').removeClass('hidden');
+        });
+    });
+
+    </script>
+</body>
+</html>

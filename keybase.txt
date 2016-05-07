@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/danbruce
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://danbruce.ca
+  * I am danbruce (https://keybase.io/danbruce) on keybase.
+  * I have a public key with fingerprint ECE5 B992 686B C033 06EA  1638 8854 AC40 63A3 E823
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ece5b992686bc03306ea16388854ac4063a3e823",
+            "host": "keybase.io",
+            "key_id": "8854ac4063a3e823",
+            "kid": "010146568c39d27d8c00e13b671e0856e0060b5baf95967296d5e2df30bfa7616aad0a",
+            "uid": "6032f12d969c397453f5aa1532c6f219",
+            "username": "danbruce"
+        },
+        "service": {
+            "hostname": "danbruce.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1438480656,
+    "expire_in": 157680000,
+    "prev": "4a9f742e29cb5bc0cbd55cfdb096ab2f986b46458a4d593e11db24cf7e0c8809",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkn9QVFUUxxcFlJVA0ZGcjOQx/kBXvO/Xfe+togz9ABUBM0HQduf9uA8e4Ft4
+u0C4k4JYpGOECTnDzArLj2kybIaG/DESOpUyLDGkaANDClSWWE2lMjVJ0X1M0x9N
+95977znf8zn3nHvqnphrsQa98VJHktx6Ly6of1Ky7P64ItpLSC6lgrB7iUI0u6ma
+noeMYkPTPYSdQDJiJUGgIA8lGdA0gEgkIc3zPMuIMgMgLdKIp2jCRuS73GYExkii
+GyVoLmzDF6emYOv/6AtnHYAEJANZyMu0oFCcwssAIJKWIEciwLMQAQCBxEqiKrAC
+5CgBKiyiFJUGkipykISiqAAR40pncRDQlEpSigAFDOQYllZZUSRZmpKhSpGCKXQj
+Qxf3I6xWRF0ySmVEvGojsLVMw0fcArOS/ygSZDNHseHyuGRXEXbkezzFdjPOU1Fs
+CsuR5PwH4ZQ0XcFdxAFlyHBrLp2wk1gpezSTSTI0z/AA12wj0CvFmoGcmqlgOcgD
+vMw0qAwjGVFQOYZClCDjBshAlhSWlVVFAgIUJUoV8J8wkGF5kVFYgUYkqUgUI6sc
+AjLPA7NWNyrRXYSdxc8U8zDSreXpoqfUwBVbLUfnLA+2BFktoSFzzEmwWMMW/jse
+nQstnRuK3lo90DSvtO96SdGBC9/6crfv8P9Znjz2VGzTM1tzIrMDGc/P/3DLeGak
+vsq3Inhm5MoAnSqd6NxadO5aRtc2uWeb+Ikon13/eDwtOqo39+FU4Nj2g20tPStT
+jF2co+3W8Yi/brc7jlelTcee63rtsHVJ1jc1PyT1vTljrfyiqmiNcLN7oy+n9YXq
+xpzg5LYfvz/00chdqtvaFRoT3X/FMeRYeuzM1PpE47t6Kjz9/LpbJTfCQzLjV3y5
+oHnpgybiVCyb++yhmvTNJz/zLx6OXdQ/Ub/RUds7bst6fOfmJfq3nOnk8bip5rA7
+TOBIWqAm8bajli8YrsvYF7euerk0MvPy3cb2t6e9c0pX/zFCZ4hXL1d/Wrn2xKjg
+OFpgPfnTznRfitLwXnN9lCviHdeyrPsVSRd22p3U0H5vjNc4eyl1x1odXQsU3Gsf
+b43SljxcFPN++zBXJ/gudsSMjjpOxV8vj34axHtbVl7uzX1RTtq0e++0o9P2IDu9
+hWwOa/D/njc2j58Z7E1ftfjX/lSnzfW1Gnz+4AHL66G79IuM5ZeS+eF9cItG7/N3
+5y2rShE4Ys+awr2JIXu+2hzZM0ZV5zfA7EdJm0bud8wN9ifUhjzXN0EvyNxQnnIk
+8KQe+sj/bv9Vr69xsKKu5HTv4aEBz+moiM+bKgMTPxtnNA9MnLwxOfhBIfgb
+=DKCJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/danbruce
+
+==================================================================
+
