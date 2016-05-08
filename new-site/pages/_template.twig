@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include "partials/_head.twig" %}
+    </head>
+    <body>
+        {% include "partials/_navigation.twig" %}
+        <main class="container">
+            {% block content %}{% endblock %}
+        </main>
+        {% include "partials/_contact-modal.twig" %}
+        {% include "partials/_scripts.twig" %}
+    </body>
+</html>
