@@ -10,7 +10,32 @@
                 </h4>
             </div>
             <div class="modal-body">
-                ...
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fa fa-envelope fa-lg"></i>
+                    <a href="mailto:{{ emailAddress }}">
+                      {{ emailAddress }}
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-phone fa-lg"></i>
+                    <a href="tel:{{ phoneNumber }}">
+                      {{ formattedPhoneNumber }}
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-twitter fa-lg"></i>
+                    <a href="https://twitter.com/dbruce84" target="_blank">
+                       Tweet at me
+                    </a>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-linkedin fa-lg"></i>
+                    <a href="https://linkedin.com/pub/daniel-bruce/29/418/79" target="_blank">
+                      Message me on LinkedIn
+                    </a>
+                  </ListGroupItem>
+                </ul>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">
