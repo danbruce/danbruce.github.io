@@ -1,0 +1,32 @@
+<div class="media">
+  <div class="media-left">
+    <a href="{{ uri }}" target="_blank">
+      <img
+        class="media-object img-thumbnail"
+        src="images/{{ logoUri }}"
+        alt="{{ companyName }}"
+        width="128" height="128" />
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">
+      {{ positionTitle }} at
+      <a href="{{ uri }}" target="_blank">
+        {{ companyName }}
+      </a><br class="visible-xs" />
+      <small> ( {{ startDate }} &mdash; {{ endDate }} )</small>
+    </h4>
+    {% for paragraph in details %}
+    <p>
+      {{ paragraph }}
+    </p>
+    {% endfor %}
+    {% if honoursProjectLink %}
+    <p>
+      <a href="files/honours_project.pdf">
+        Final year honours project (PDF)
+      </a>
+    </p>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,78 @@
+{% extends "partials/_template.twig" %}
+
+{% block title %}Dan Bruce &mdash; Employment {% endblock %}
+
+{% block content %}
+    <div class="page-header">
+        <h1>
+            Employment History &amp; Education
+        </h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+          {{ include('partials/_work-media.twig', {
+            companyName: 'Fitchek',
+            logoUri: 'fitchek.png',
+            uri: 'http://fitchek.com/',
+            positionTitle: 'Technical Lead',
+            startDate: 'July 2015',
+            endDate: 'Present',
+            details: [
+              'I am currently leading engineering efforts at Fitchek. I am
+               responsible for building all aspects of the web software stack
+               bringing Fitness professionals and studios closer to their
+               clients.'
+            ]
+          }) }}
+          {{ include('partials/_work-media.twig', {
+            companyName: 'Vectorface',
+            logoUri: 'vectorface.png',
+            uri: 'http://vectorface.com/',
+            positionTitle: 'Backend Developer',
+            startDate: 'March 2014',
+            endDate: 'June 2015',
+            details: [
+              'I worked with VectorFace’s online casino software
+               performing various backend tasks such as feature development, bug
+               fixes, and code maintenance. In particular, my background in
+               mathematics allowed me to employ statistically sound methods for
+               verification of the games of chance leading to more efficient and
+               accurate estimation of game payouts.'
+            ]
+          }) }}
+          {{ include('partials/_work-media.twig', {
+            companyName: 'MediaMiser Ltd.',
+            logoUri: 'mediamiser.png',
+            uri: 'https://www.mediamiser.com/',
+            positionTitle: 'Team Lead & Lead Mobile Developer',
+            startDate: 'February 2011',
+            endDate: 'October 2013',
+            details: [
+              'I was hired in the position of Lead Mobile Developer and lead the
+               company’s efforts in building their iOS applications. I was
+               eventually promoted to a Team Lead position and led a team of
+               developers in building the web frontend to MediaMiser’s
+               next generation SAS solution, MediaMiser SNAP.'
+            ]
+          }) }}
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Education</h3>
+        {{ include('partials/_work-media.twig', {
+          companyName: 'Carleton University',
+          logoUri: 'carleton.png',
+          uri: 'https://carleton.ca/',
+          positionTitle: 'Bachelor of Mathematics',
+          startDate: '2003',
+          endDate: '2009',
+          details: [
+            'I graduated with high honours in 2009 and was on the Dean’s Honour
+             List in 2008 and 2009. My program focused on computer science and
+             statistics.'
+          ],
+          'honoursProjectLink': true,
+        }) }}
+{% endblock %}
